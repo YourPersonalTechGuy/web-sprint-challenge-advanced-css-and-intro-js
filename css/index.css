@@ -40,7 +40,8 @@ h1{
 a {	
     text-decoration: none;	
     color: black;
-    font-size:2.5rem;	
+    font-size:2.5rem;
+    padding: 0 5%;	
 }	
 a:hover {	
     font-weight: bold;	
@@ -133,4 +134,40 @@ button:hover{
 }
 .artist img{
     width:100%;
+}
+
+@media(max-width: 500px){
+    nav a{
+        font-size: 120%;
+    }
+    .title-container div{
+        width: 100vw;
+        margin-bottom: 2.5%;
+    }
+    .artists-container{
+        flex-flow: column wrap;
+        align-items: center;
+        max-width: 50%;
+        margin-top: 2.5% ;
+    }
+
+    .title-container hr{
+        width: 100vw;
+    }
+
+    .artist{
+        width: 90%;
+    }
+    .artist a{
+        font-size: 90%;
+    }
+    .artist img{
+        height: 40%;
+
+    }
+    .artists-container .artist .bio{
+        font-size: 60%;
+        width: 130%;
+        margin-left: -15%;
+    }
 }
