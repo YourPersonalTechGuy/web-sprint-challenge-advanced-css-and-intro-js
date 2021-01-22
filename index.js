@@ -357,3 +357,9 @@ export default{
   addArtist,
   lotsOfArt
 }
+
+
+
+
+
+
